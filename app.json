@@ -1,8 +1,22 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/login/login"
   ],
   "window": {
-    "defaultTitle": "My App"
+  },
+  "tabBar": {
+    "textColor":"#dddddd",
+    "selectedColor":"#49a9ee",
+    "backgroundColor":"#ffffff",
+    "items": [
+    {
+      "pagePath":"pages/index/index",
+      "name":"Home Page"
+    },
+    {
+      "pagePath":"pages/login/login",
+      "name":"Log"
+    }
+    ]
   }
 }
