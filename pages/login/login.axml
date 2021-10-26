@@ -12,7 +12,7 @@
     <view>password:</view>
     <input placeholder="password..." class="input-box"/>
     <view class="buttons">
-      <button  type="primary" class="button">Log in</button>
+      <button type="primary" class="button" onTap="logIn">Log in</button>
       <view>Does not you have a account?</view>
       <view class="button-signup" onTap="signUp">Click to Sign Up</view>
       <view class="buttons-login">
