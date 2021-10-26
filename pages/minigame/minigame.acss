@@ -1,0 +1,26 @@
+.page-minigame{
+  display: flex;
+  flex-direction: column;
+  padding: 0 10% 0 10%;
+  width: 100vw;
+}
+
+.btn{
+  width: 100px;
+  height: 100px;
+}
+
+.header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 25px 0px 25px 0px;
+  text-align: center;
+}
+
+.table{
+  margin: 25px 0px 25px 0px;
+}
+.text-info{
+  text-align: center;
+  font-size: 20px;
+}

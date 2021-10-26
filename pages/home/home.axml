@@ -4,7 +4,7 @@
       <view class="bar"><view class="healt-bar">Healt</view></view>
       <view class="bar"><view class="hungry-bar">Hungry</view></view>
       <view class="bar"><view class="happy-bar">Happiness</view></view>
-      <view class="coins">10000</view>
+      <view class="coins">$10000</view>
   </view>
   <view class="icon-buttons">
     <view>

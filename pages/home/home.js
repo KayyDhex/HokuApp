@@ -6,7 +6,9 @@ my.showTabBar({
 
 Page({
   handleTapGames(){
-    console.log("games");
+    my.navigateTo({
+      url: '../minigame/minigame'
+    });
   },
   handleTapCalendar(){
     console.log("calendar");

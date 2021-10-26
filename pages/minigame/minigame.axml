@@ -1,0 +1,15 @@
+<view class="page-minigame">
+<view>
+  Play with Hoku the traditional game of rock, paper or scissors.
+</view>
+<view class="header">
+  <view>You: {{score}}</view>
+  <view>Hoku: {{scoreHoku}}</view>
+</view>
+  <view class="table">
+    <image src="../../assets/mini1.png" onTap="playRock" class="btn"/>
+    <image src="../../assets/mini3.png" onTap="playPaper" class="btn"/>
+    <image src="../../assets/mini2.png" onTap="playScissors" class="btn"/>
+  </view>
+  <view class="text-info">{{textGame}}</view>
+</view>
