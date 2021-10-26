@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Hoku",
+  "usingComponents": {
+    "f-input": "../../components/fiat/f-input/f-input"
+  }
+}

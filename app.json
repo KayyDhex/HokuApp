@@ -1,6 +1,9 @@
 {
   "pages": [
-    "pages/login/login"
+    "pages/login/login",
+    "pages/home/home",
+    "pages/info/info",
+    "pages/profile/profile"
   ],
   "window": {
   },
@@ -10,12 +13,19 @@
     "backgroundColor":"#ffffff",
     "items": [
     {
-      "pagePath":"pages/index/index",
-      "name":"Home Page"
+      "pagePath":"pages/home/home",
+      "name":"Home Page",
+      "icon": "/assets/1h.png"
     },
     {
-      "pagePath":"pages/login/login",
-      "name":"Log"
+      "pagePath":"pages/info/info",
+      "name":"Info",
+      "icon": "/assets/2h.png"
+    },
+    {
+      "pagePath":"pages/profile/profile",
+      "name":"Profile",
+      "icon": "/assets/3h.png"
     }
     ]
   }
