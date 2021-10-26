@@ -5,7 +5,7 @@ Page({
     console.log("Hola mundo");
   },
   logIn(){
-    my.navigateTo({
+    my.redirectTo({
       url: '../home/home'
     });
   }

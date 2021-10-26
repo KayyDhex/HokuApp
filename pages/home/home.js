@@ -1,13 +1,17 @@
 const app = getApp();
 
+my.showTabBar({
+    animation: true
+})
+
 Page({
-  games(){
+  handleTapGames(){
     console.log("games");
   },
-  calendar(){
+  handleTapCalendar(){
     console.log("calendar");
   },
   handleTapsendMesagge(){
     console.log("Send Message");
-  }
+  },
 });

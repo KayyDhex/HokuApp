@@ -43,8 +43,7 @@
 }
 .icon-buttons{
   display: flex;
-  flex-direction: row;
-  text-align: center;
+  flex-direction: row-reverse;
 }
 .icon-btn{
   width: 30px;

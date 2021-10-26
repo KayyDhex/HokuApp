@@ -7,8 +7,10 @@
       <view class="coins">10000</view>
   </view>
   <view class="icon-buttons">
-    <image src="../../assets/game.png" class="icon-btn"/>
-    <image src="../../assets/calendar.png" class="icon-btn"/>
+    <view>
+      <image src="../../assets/game.png" class="icon-btn" onTap="handleTapGames"/>
+      <image src="../../assets/calendar.png" class="icon-btn" onTap="handleTapCalendar"/>
+    </view> 
   </view>
   </view>
   <view class="body-pet">
