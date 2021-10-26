@@ -1,0 +1,24 @@
+<view class="page-login">
+  <view class="header">
+    <view class="header-title">
+      Hoku
+    </view>
+    <image class="avatar" src='../../assets/1.png'/>
+  </view>
+  <view class="form-login">
+  <view>
+    <view>Username:</view>
+    <input placeholder="username..." class="input-box"/>
+    <view>password:</view>
+    <input placeholder="password..." class="input-box"/>
+    <view class="buttons">
+      <button  type="primary" class="button">Log in</button>
+      <view>Does not you have a account?</view>
+      <view class="button-signup">Click to Sign Up</view>
+      <view class="buttons-login">
+        <button type="primary" class="button button-google">Google</button>
+        <button type="primary" class="button button-facebook">Facebook</button>
+      </view>
+    </view>
+  </view>
+</view>
