@@ -1,7 +1,7 @@
 <view class="page-home">
   <view class="header">
     <view class="info-tab">
-      <view class="bar"><view class="healt-bar">Healt</view></view>
+      <view class="bar"><view class="health-bar">Health</view></view>
       <view class="bar"><view class="hungry-bar">Hungry</view></view>
       <view class="bar"><view class="happy-bar">Happiness</view></view>
       <view class="coins">$10000</view>
@@ -14,7 +14,9 @@
   </view>
   </view>
   <view class="body-pet">
-    <image mode="scaleToFill" src="../../assets/1.png" onTap=""/>
+    <image  
+      src="https://media.discordapp.net/attachments/902003102574592115/902731354985332736/cam2.png?width=473&height=473" 
+      onTap=""/>
     <f-input placeholder="Hi Hoku!..." label="Talk with Hoku" class="input-text">
       <image src="../../assets/ic_send.png" slot="iconOutterRight" onTap="handleTapsendMesagge"/>
     </f-input>

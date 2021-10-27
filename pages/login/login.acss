@@ -4,10 +4,12 @@
   align-items: center;
   padding: 0 10% 0 10%;
   width: 100vw;
+  font-family: 'Raleway';
 }
+
 .avatar{
-  width: 200rpx;
-  height: 200rpx;
+  width: 400rpx;
+  height: 400rpx;
   border-radius: 50%;
   align-self: center;
   margin-bottom: 20px;
@@ -15,7 +17,7 @@
 .button{
   margin-bottom: 10px;
   border-radius: 8px;
-  background-color: #E97466;
+  background-color: #6ECEC0;
   border: none;
 }
 .buttons{
@@ -23,7 +25,7 @@
 }
 .button-signup{
   font-size: 14px;
-  color: #E97466;
+  color: #6ECEC0;
   margin-bottom: 20px;
 }
 .buttons-login{

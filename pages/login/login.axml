@@ -1,19 +1,18 @@
 <view class="page-login">
   <view class="header">
-    <view class="header-title">
-      Hoku
-    </view>
-    <image class="avatar" src='../../assets/1.png'/>
+    <image 
+      class="avatar" 
+      src='https://media.discordapp.net/attachments/902003102574592115/902743500980912159/2_1_-removebg-preview.png?width=473&height=473'/>
   </view>
   <view class="form-login">
   <view>
     <view>Username:</view>
     <input placeholder="username..." class="input-box"/>
-    <view>password:</view>
+    <view>Password:</view>
     <input placeholder="password..." class="input-box"/>
     <view class="buttons">
       <button type="primary" class="button" onTap="logIn">Log in</button>
-      <view>Does not you have a account?</view>
+      <view>Doesn't have an account?</view>
       <view class="button-signup" onTap="signUp">Click to Sign Up</view>
       <view class="buttons-login">
         <button type="primary" class="button button-google">Google</button>
