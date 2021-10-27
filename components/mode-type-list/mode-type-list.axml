@@ -1,0 +1,16 @@
+<view class="mode-type-list-container">
+  <view id="solo">
+  <mode-type 
+    modeImg="https://media.discordapp.net/attachments/902003102574592115/902698309783805972/1.png?width=840&height=473"
+    mode="solo"
+    checked={{solo}}
+    id="solo">
+  </mode-type>
+  </view>
+  <mode-type 
+    modeImg="https://media.discordapp.net/attachments/902003102574592115/902698290309640192/2.png?width=840&height=473"
+    mode="together"
+    checked={{together}}
+    id="together">
+  </mode-type>
+</view>

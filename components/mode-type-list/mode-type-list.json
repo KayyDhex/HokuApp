@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "mode-type": "/components/mode-type/mode-type"
+  }
+}

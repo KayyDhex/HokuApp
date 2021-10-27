@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/mode-selection/mode-selection"
   ],
   "window": {
-    "defaultTitle": "My App"
+    "defaultTitle": "Hoku",
+    "titleBarColor": "#6ECEC0"
   }
 }
