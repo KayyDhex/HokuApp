@@ -5,7 +5,8 @@ Page({
   data:{
     score: 0,
     scoreHoku: 0,
-    textGame: 'Hello! Has not been played yet.'
+    textGame: 'Hello! Has not been played yet.',
+    imageGame: ""
   },
   playRock(){
     var num = randomNum();
@@ -13,17 +14,20 @@ Page({
       if(num==2){
       this.setData({
       scoreHoku: this.data.scoreHoku + 1,
-      textGame: 'Hoku plays paper and you Rock, you Lose! :('
+      textGame: 'Hoku plays paper and you Rock, you Lose! :(',
+      imageGame: "../../assets/mini3.png"
     });
       }else{
       this.setData({
       score: this.data.score + 1,
-      textGame: 'Hoku plays scissors and you Rock, you Win! :)'
+      textGame: 'Hoku plays scissors and you Rock, you Win! :)',
+      imageGame: "../../assets/mini2.png"
     });
       }
     }else{
       this.setData({
-      textGame: 'Hoku plays Rock and you Rock, same :|'
+      textGame: 'Hoku plays Rock and you Rock, same :|',
+      imageGame: "../../assets/mini1.png"
     });
     }
   },
@@ -33,17 +37,20 @@ Page({
       if(num==1){
         this.setData({
         score: this.data.score + 1,
-        textGame: 'Hoku plays Rock and you Paper, you Win! :)'
+        textGame: 'Hoku plays Rock and you Paper, you Win! :)',
+        imageGame: "../../assets/mini1.png"
       });
       }else{
         this.setData({
         scoreHoku: this.data.scoreHoku + 1,
-        textGame: 'Hoku plays scissors and you Paper, you Lose! :('
+        textGame: 'Hoku plays scissors and you Paper, you Lose! :(',
+        imageGame: "../../assets/mini2.png"
       });
       }
     }else{
       this.setData({
-      textGame: 'Hoku plays Paper and you Paper, same :|'
+      textGame: 'Hoku plays Paper and you Paper, same :|',
+      imageGame: "../../assets/mini3.png"
     });
     }
   },
@@ -53,17 +60,20 @@ Page({
       if(num===2){
         this.setData({
         score: this.data.score + 1,
-        textGame: 'Hoku plays Paper and you Scissors, you Win! :)'
+        textGame: 'Hoku plays Paper and you Scissors, you Win! :)',
+        imageGame: "../../assets/mini3.png"
         });
       }else{
         this.setData({
         scoreHoku: this.data.scoreHoku + 1,
-        textGame: 'Hoku plays Rock and you Scissors, you Lose! :('
+        textGame: 'Hoku plays Rock and you Scissors, you Lose! :(',
+        imageGame: "../../assets/mini1.png"
         });
       }
     }else{
       this.setData({
-      textGame: 'Hoku plays Scissors and you Scissors, same :|'
+      textGame: 'Hoku plays Scissors and you Scissors, same :|',
+      imageGame: "../../assets/mini2.png"
     });
     }
   }

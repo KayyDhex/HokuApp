@@ -12,4 +12,5 @@
     <image src="../../assets/mini2.png" onTap="playScissors" class="btn"/>
   </view>
   <view class="text-info">{{textGame}}</view>
+  <image src="{{imageGame}}" class="btn"/>
 </view>
