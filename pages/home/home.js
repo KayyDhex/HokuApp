@@ -1,13 +1,16 @@
 const app = getApp();
 
 Page({
-  games(){
-    console.log("games");
+  handleTapGames(){
+    my.navigateTo({
+      url: '../minigame/minigame'
+    });
   },
-  calendar(){
+  handleTapCalendar(){
     console.log("calendar");
+    
   },
   handleTapsendMesagge(){
     console.log("Send Message");
-  }
+  },
 });

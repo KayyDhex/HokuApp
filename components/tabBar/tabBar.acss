@@ -1,0 +1,17 @@
+.tab-bar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  align-self: center;
+  text-align: center;
+}
+.icon{
+  width: 25px;
+  height: 25px;
+}
+.cell{
+  display: flex;
+  flex-direction: column;
+}

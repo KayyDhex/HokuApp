@@ -3,14 +3,18 @@
     "pages/login/login",
     "pages/home/home",
     "pages/info/info",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/minigame/minigame"
   ],
   "window": {
   },
   "tabBar": {
+    "custom": true,
     "textColor":"#dddddd",
     "selectedColor":"#49a9ee",
     "backgroundColor":"#ffffff",
+    "borderStyle": "black",
+    "position": "bottom",
     "items": [
     {
       "pagePath":"pages/home/home",
