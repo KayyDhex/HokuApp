@@ -7,11 +7,11 @@
   <view class="form-login">
   <view>
     <view>Username:</view>
-    <input placeholder="username..." class="input-box"/>
+    <input placeholder="username..." class="input-box" onInput="bindKeyInputUser"/>
     <view>Password:</view>
-    <input placeholder="password..." class="input-box"/>
+    <input placeholder="password..." class="input-box" onInput="bindKeyInputPassword"/>
     <view class="buttons">
-      <button type="primary" class="button" onTap="logIn">Log in</button>
+      <button type="primary" class="button" onTap="logIn" >Log In</button>
       <view>Doesn't have an account?</view>
       <view class="button-signup" onTap="signUp">Click to Sign Up</view>
       <view class="buttons-login">

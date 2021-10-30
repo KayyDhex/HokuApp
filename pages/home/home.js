@@ -1,9 +1,5 @@
 const app = getApp();
 
-my.showTabBar({
-    animation: true
-})
-
 Page({
   handleTapGames(){
     my.navigateTo({
@@ -12,6 +8,7 @@ Page({
   },
   handleTapCalendar(){
     console.log("calendar");
+    
   },
   handleTapsendMesagge(){
     console.log("Send Message");

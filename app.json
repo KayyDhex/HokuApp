@@ -9,9 +9,12 @@
   "window": {
   },
   "tabBar": {
+    "custom": true,
     "textColor":"#dddddd",
     "selectedColor":"#49a9ee",
     "backgroundColor":"#ffffff",
+    "borderStyle": "black",
+    "position": "bottom",
     "items": [
     {
       "pagePath":"pages/home/home",

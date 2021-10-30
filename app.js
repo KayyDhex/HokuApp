@@ -1,4 +1,9 @@
 App({
+  globalData:{
+    hasLogin:false,
+    name:'',
+    password:''
+  },
   onLaunch(options) {
     // Page opens for the first time
     console.info('App onLaunch');
@@ -6,6 +11,9 @@ App({
   onShow(options) {
     // Reopened by scheme from the background
   },
+});
+
+/*
 
   userInfo: null,
   getUserInfo() {
@@ -33,4 +41,4 @@ App({
       });
     });
   },
-});
+*/

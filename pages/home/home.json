@@ -1,6 +1,7 @@
 {
   "defaultTitle": "Hoku",
   "usingComponents": {
-    "f-input": "../../components/fiat/f-input/f-input"
+    "f-input": "../../components/fiat/f-input/f-input",
+    "tab-bar": "../../components/tabBar/tabBar"
   }
 }
