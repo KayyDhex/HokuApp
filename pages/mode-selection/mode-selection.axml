@@ -1,11 +1,4 @@
 <view class="mode-selection-container" onTap="checkId">
   <text id="fml">Choose your mode</text>
   <mode-type-list id="aaaa"/>
-  <button 
-    class="mode-selection-button"
-    size="default" 
-    type="primary"
-    id= "FFFFFFFFF">
-    Next
-  </button>
 </view>

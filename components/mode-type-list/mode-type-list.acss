@@ -1,0 +1,19 @@
+.mode-type-list-container{
+  position: relative;
+  float: left;
+  height: 40%;
+  width: 100%;
+  background-color: #C1F4B9;
+}
+
+.mode-type-radio{
+  position: absolute; 
+  top: 2vh; 
+  left: 2vw;
+}
+
+.mode-type-img{
+  width:100%;
+  max-width: 100%;
+}
+

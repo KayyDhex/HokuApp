@@ -1,6 +1,0 @@
-<view class="mode-type-container">
-  <checkbox value="{{mode}}" class="mode-type-checkbox"/>
-  <image 
-    class="mode-type-img"
-    src="{{modeImg}}"/>
-</view>
