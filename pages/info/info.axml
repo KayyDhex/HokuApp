@@ -1,6 +1,21 @@
 <view class="all-page">
-  <view class="circleBase type3">
-  Info
+  <view class = "options">
+    <view class = "friends">
+      <image class = "opt" src="https://media.discordapp.net/attachments/815336058480099399/904585819971551272/pngwing.com3.png?width=526&height=670"/>
+      <view class = "userText">Muffin</view>
+    </view>
+    <view class = "settings">
+      <image class = "opt" src="https://media.discordapp.net/attachments/815336058480099399/904585032851664938/boba.png"/>
+      <view class = "userText">Milk tea</view>
+    </view>
+    <view class = "gifts">
+      <image class = "opt" src="https://images-ext-1.discordapp.net/external/V8N45XcBRYUjoI6inD4gJ_L1kHYw3PXpZ0dBqF_-dmI/%3Fwidth%3D372%26height%3D484/https/media.discordapp.net/attachments/815336058480099399/904584545872011306/pngwing.com.png"/>
+      <view class = "userText">Cake</view>
+      </view>
+    <view class = "about">
+      <image class = "opt" src="https://media.discordapp.net/attachments/815336058480099399/904585275005603840/pngwing.com2.png"/>
+      <view class = "userText">Doughnut</view>
+    </view>
   </view>
   <tab-bar></tab-bar>
 </view>

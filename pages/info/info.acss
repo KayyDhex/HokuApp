@@ -4,3 +4,45 @@ width: 100vw;
 .page-info{
   padding: 0 10% 0 10%;
 }
+
+.circleBase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatar {
+    width: 300rpx;
+    height: 300rpx;
+    border-radius: 60%;
+    align-self: center;
+}
+.opt {
+    width: 250rpx;
+    height: 250rpx;
+    border-radius: 50%;
+}
+.options {
+  margin-left: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(200px, auto);
+}
+.usernameText {
+ padding-left: 40%; 
+ font-family: OpenSans, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  margin-bottom: 4px;
+  align-content: center;
+}
+.userText {
+    font-family: OpenSans, sans-serif;
+    padding-left: 20%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    margin-bottom: 4px;
+    align-content: center;
+}

@@ -23,8 +23,8 @@ Page({
   },
   logIn(){
     getQueryMenu({
-      user: 'admin',
-      password : 'admin'
+      user: this.data.inputUser,
+      password : this.data.inputPassword
     });
    my.redirectTo({
      url: '../home/home'

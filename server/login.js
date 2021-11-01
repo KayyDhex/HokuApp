@@ -11,7 +11,7 @@ export default {
   },
   fail: function(res) {
     console.log('fail');
-    my.alert({content: 'fail'});
+    //my.alert({content: 'fail'});
   },
   complete: function(res) {
     console.log('complete');
