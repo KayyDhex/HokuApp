@@ -15,7 +15,10 @@ Page({
       inputPassword: e.detail.value
     });
   },
-  signUp(e){
+  signUp(){
+    my.redirectTo({
+     url: '../sign-up/sign-up'
+   })
   },
   logIn(){
    my.redirectTo({
