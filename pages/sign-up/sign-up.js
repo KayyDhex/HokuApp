@@ -8,7 +8,6 @@ Page({
   },
   onLoad() {},
   signUp() {
-    set
     my.navigateTo({
       url:'../mode-selection/mode-selection'
     })
