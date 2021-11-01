@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/mode-selection/mode-selection"
     "pages/login/login",
     "pages/home/home",
     "pages/info/info",
@@ -7,6 +8,8 @@
     "pages/minigame/minigame"
   ],
   "window": {
+    "defaultTitle": "Hoku",
+    "titleBarColor": "#6ECEC0"
   },
   "tabBar": {
     "custom": true,

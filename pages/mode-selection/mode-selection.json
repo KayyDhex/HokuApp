@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+      "mode-type-list": "/components/mode-type-list/mode-type-list"
+    }
+}

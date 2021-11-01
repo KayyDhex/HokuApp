@@ -1,0 +1,15 @@
+.mode-selection-container{
+  width: 100%;
+  font-family: 'Raleway';
+  color: gray;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+.mode-selection-button{
+  background-color: #6ECEC0;
+  font-size: 0.3rem;
+  border-color: #6ECEC0;
+  padding:0;
+}
