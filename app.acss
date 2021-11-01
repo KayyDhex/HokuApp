@@ -1,5 +1,7 @@
 page {
   flex: 1;
   display: flex;
-  background: #f7f7f7;
+  background-image: url("https://media.discordapp.net/attachments/902003102574592115/904561616367005776/22.png?width=334&height=472");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
