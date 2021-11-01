@@ -1,0 +1,67 @@
+<view class="page-sign-up">
+  <view class="header">
+    <image 
+      class="avatar" 
+      src='https://media.discordapp.net/attachments/902003102574592115/902743500980912159/2_1_-removebg-preview.png?width=473&height=473'/>
+      <view class="header-title">
+        Sign up
+      </view>
+  </view>
+  <form class="form-sign-up">
+    <view class="sign-up-username">
+      <view>Username</view>
+      <input name="input" 
+        class="input-box"
+        placeholder="Please input your Username here" 
+        maxlength="12"
+        helperMsg="Username must be unique and alphanumeric"
+        errorMsg="Username must be unique and alphanumeric"
+        inputType=""
+        onInput="bindKeyInputUsername"/>
+    </view>
+    <view class="sign-up-password">
+      <view>Password</view>
+      <input name="input" 
+        class="input-box"
+        placeholder="Please input your Password here" 
+        maxlength="12"
+        helperMsg="Must be unique and alphanumeric"
+        errorMsg="Must be unique and alphanumeric"
+        password
+        onInput="bindKeyInputPassword"/>
+
+      <view>Repeat your password</view>
+      <input name="input" 
+        class="input-box"
+        placeholder="Please repeat your Password here" 
+        maxlength="12"
+        helperMsg="Must be unique and alphanumeric"
+        errorMsg="Must be unique and alphanumeric"
+        password
+        onInput="checkPassword"/>
+    </view>
+
+    <view class="genre">
+      <radio-group onChange="bindChangeInputGenre">
+        <label> 
+          <radio value="female"/>
+          Female
+        </label>
+        <label> 
+          <radio value="male"/>
+          Male
+        </label>
+        <label> 
+          <radio value="na"/>
+          Prefer not to say
+        </label>
+      </radio-group>
+    </view>
+
+    <view class="buttons">
+      <button type="primary" class="button" onTap="signUp" >Sign Up</button>
+      <view>Already have an account?</view>
+      <view class="button-signup" onTap="logIn">Click here to Login</view>
+    </view>
+  </form>
+</view>

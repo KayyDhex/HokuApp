@@ -1,0 +1,27 @@
+<form onSubmit="formSubmit">
+  <radio-group>
+    <view id="solo" class="mode-type-list-container">
+      <label>
+        <radio value="solo" class="mode-type-radio"/>
+      </label>
+      <image 
+        class="mode-type-img"
+        src="https://media.discordapp.net/attachments/902003102574592115/902698309783805972/1.png?width=840&height=473"/>
+    </view>
+    <view id="together" class="mode-type-list-container">
+      <label>
+        <radio value="together" class="mode-type-radio"/>
+      </label>
+      <image 
+        class="mode-type-img"
+        src="https://media.discordapp.net/attachments/902003102574592115/902698290309640192/2.png?width=840&height=473"/>
+    </view>
+  </radio-group>
+  <button 
+    class="mode-selection-button"
+    size="default" 
+    type="primary"
+    formType="submit">
+    Next
+  </button>
+</form>
