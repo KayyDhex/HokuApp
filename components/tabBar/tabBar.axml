@@ -1,0 +1,20 @@
+<view class="tab-bar">
+  <view class="cell">
+    <navigator url="../../pages/info/info" open-type="redirect">
+      <image src="../../assets/3h.png" class="icon"/>
+    </navigator>
+    <text>Food</text>
+  </view>
+  <view class="cell">
+    <navigator url="../../pages/home/home" open-type="redirect">
+      <image src="../../assets/2h.png" class="icon"/>
+    </navigator>
+    <text>Home</text>
+  </view>
+  <view class="cell">
+    <navigator url="../../pages/profile/profile" open-type="redirect">
+      <image src="../../assets/1h.png" class="icon"/>
+    </navigator>
+    <text>Profile</text>
+  </view>
+</view>

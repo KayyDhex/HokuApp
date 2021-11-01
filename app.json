@@ -1,9 +1,39 @@
 {
   "pages": [
     "pages/mode-selection/mode-selection"
+    "pages/login/login",
+    "pages/home/home",
+    "pages/info/info",
+    "pages/profile/profile",
+    "pages/minigame/minigame"
   ],
   "window": {
     "defaultTitle": "Hoku",
     "titleBarColor": "#6ECEC0"
+  },
+  "tabBar": {
+    "custom": true,
+    "textColor":"#dddddd",
+    "selectedColor":"#49a9ee",
+    "backgroundColor":"#ffffff",
+    "borderStyle": "black",
+    "position": "bottom",
+    "items": [
+    {
+      "pagePath":"pages/home/home",
+      "name":"Home Page",
+      "icon": "/assets/1h.png"
+    },
+    {
+      "pagePath":"pages/info/info",
+      "name":"Info",
+      "icon": "/assets/2h.png"
+    },
+    {
+      "pagePath":"pages/profile/profile",
+      "name":"Profile",
+      "icon": "/assets/3h.png"
+    }
+    ]
   }
 }

@@ -1,0 +1,16 @@
+{
+  "users":[
+    {
+      "user":"admin",
+      "password":"admin",
+      "genre":"M",
+      "lenguage":"ESP",
+      "coins":1000,
+      "feelings":"good",
+      "age":12,
+      "health":100,
+      "hungry":70,
+      "hapinnes":40
+    }
+  ]
+}

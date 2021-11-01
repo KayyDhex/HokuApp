@@ -1,0 +1,6 @@
+<view class="all-page">
+  <view class="page-profile">
+  Profile
+  </view>
+  <tab-bar></tab-bar>
+</view>
