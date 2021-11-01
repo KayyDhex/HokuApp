@@ -12,8 +12,8 @@
     <input placeholder="password..." class="input-box" onInput="bindKeyInputPassword"/>
     <view class="buttons">
       <button type="primary" class="button" onTap="logIn" >Log In</button>
-      <view>Doesn't have an account?</view>
-      <view class="button-signup" onTap="signUp">Click to Sign Up</view>
+      <view>Don't have an account?</view>
+      <view class="button-signup" onTap="signUp">Click here to Sign Up</view>
       <view class="buttons-login">
         <button type="primary" class="button button-google">Google</button>
         <button type="primary" class="button button-facebook">Facebook</button>

@@ -1,3 +1,5 @@
+const app = getApp();
+
 Component({
   mixins: [],
   data: {
@@ -11,6 +13,9 @@ Component({
   methods: {
     formSubmit: function(e) {
       console.log("Submit values are: ", e.detail.value)
+      my.redirectTo({
+        url: '../home/home'
+      });
     }
   },
 });
