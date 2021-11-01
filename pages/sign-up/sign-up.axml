@@ -7,7 +7,7 @@
         Sign up
       </view>
   </view>
-  <form class="form-sign-up">
+  <form class="form-sign-up" onSubmit="signUp">
     <view class="sign-up-username">
       <view>Username</view>
       <input name="input" 
@@ -59,7 +59,7 @@
     </view>
 
     <view class="buttons">
-      <button type="primary" class="button" onTap="signUp" >Sign Up</button>
+      <button type="primary" class="button" formType="submit">Sign Up</button>
       <view>Already have an account?</view>
       <view class="button-signup" onTap="logIn">Click here to Login</view>
     </view>
