@@ -1,5 +1,6 @@
 .all-page{
-width: 100vw;
+  width: 100vw;
+  
 }
 .page-home{
   display: flex;
@@ -30,7 +31,7 @@ width: 100vw;
   background-color: #4AB969;
 }
 .hungry-bar{
-  width: 65%;
+  width: 40%;
   border-radius: 10px;
   background-color: #DF5252;
 }
@@ -38,6 +39,7 @@ width: 100vw;
   width: 50%;
   border-radius: 10px;
   background-color: #F6F055;
+  color: gray;
 }
 .header{
   width: 100%;
@@ -48,6 +50,7 @@ width: 100vw;
 .icon-buttons{
   display: flex;
   flex-direction: row-reverse;
+  opacity: 0.65;
 }
 .icon-btn{
   width: 30px;
@@ -56,4 +59,20 @@ width: 100vw;
 .info-tab{
   display: flex;
   flex-direction: column;
+}
+
+.home-pet{
+  width: 93vw;
+  height: 57vh;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: none;
+  padding: none; 
+}
+
+.home-chat{
+  position: absolute;
+  top: 70%;
+  width: 80%;
 }

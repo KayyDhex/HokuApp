@@ -4,8 +4,14 @@
   position: fixed;
   bottom: 0px;
   width: 100vw;
+  left: 0px;
   align-self: center;
   text-align: center;
+  background-color: #FDE0DC;
+  box-shadow: inset 0px 0px 5px#000000;
+  opacity: 0.70;
+  padding-top: 0.5em; 
+  padding-bottom: 0.5em; 
 }
 .icon{
   width: 25px;
