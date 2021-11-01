@@ -17,6 +17,7 @@
         helperMsg="Username must be unique and alphanumeric"
         errorMsg="Username must be unique and alphanumeric"
         inputType=""
+        id="username"
         onInput="bindKeyInputUsername"/>
     </view>
     <view class="sign-up-password">
@@ -28,6 +29,7 @@
         helperMsg="Must be unique and alphanumeric"
         errorMsg="Must be unique and alphanumeric"
         password
+        id="password"
         onInput="bindKeyInputPassword"/>
 
       <view>Repeat your password</view>
@@ -59,7 +61,7 @@
     </view>
 
     <view class="buttons">
-      <button type="primary" class="button" formType="submit">Sign Up</button>
+      <button type="primary" class="button" formType="submit" onTap = 'uploadData'>Sign Up</button>
       <view>Already have an account?</view>
       <view class="button-signup" onTap="logIn">Click here to Login</view>
     </view>

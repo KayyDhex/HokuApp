@@ -1,3 +1,4 @@
+import {getQueryMenu} from '../../server/login'
 const app = getApp();
 
 Page({
@@ -21,6 +22,10 @@ Page({
    })
   },
   logIn(){
+    getQueryMenu({
+      user: 'admin',
+      password : 'admin'
+    });
    my.redirectTo({
      url: '../home/home'
    });

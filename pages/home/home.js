@@ -12,5 +12,6 @@ Page({
   },
   handleTapsendMesagge(){
     console.log("Send Message");
+    
   },
 });

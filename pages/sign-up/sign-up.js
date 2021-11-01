@@ -1,5 +1,5 @@
 const app = getApp();
-
+import {getQueryMenu} from '../../server/signup'
 Page({
   data: {
     username: "",
@@ -13,12 +13,21 @@ Page({
     })
   },
   logIn() {
+    
     my.navigateTo({
+
       url:'../login/login'
     })
   },
   checkPassword (){
-
+    
+  },
+  uploadData () {
+    console.log(this.data.password);
+    getQueryMenu({
+      user: this.data.username,
+      password : this.data.password
+    });
   },
   bindKeyInputUsername(e){
     this.setData({
