@@ -1,5 +1,5 @@
 <view class="all-page">
-  <view class="page-info">
+  <view class="circleBase type3">
   Info
   </view>
   <tab-bar></tab-bar>
